@@ -1,10 +1,47 @@
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Flask Tutorial</title>
-  </head>
-  <body>
-    <h1> My First Try Using Flask </h1>
-    <p> Flask is Fun </p>
-  </body>
+    <title>Task Master</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="modal" id="new_user_popup">
+        <div class="modal_content" id="new_user_popup_content">
+            <span class="close">&times;</span>
+            <form id="new_user_popup_form">
+                <div>
+                    <p>Enter the name: </p>
+                    <input type="text" id="name_entry">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="new_event_popup">
+
+    </div>
+    <div class="buttons">
+        <button class="button" id="new_user">Add a user</button>
+        <button class="button" id="new_event">Add an event</button>
+    </div>
+    <div class="tasks_header">
+        <h1>Uncompleted Tasks</h1>
+    </div>
+
+    <div class="tasks" id="compleated">
+        <!--TODO We will have to insert here via python or java script-->
+    </div>
+
+    <div class="tasks_header">
+        <h1>Compleated Tasks</h1>
+    </div>
+
+    <div class="tasks" id="uncompleted">
+        <!--TODO We will have to insert here via python or java script-->
+    </div>
+</body>
+
+<script src="js/index.js"></script>
+
 </html>

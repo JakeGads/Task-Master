@@ -1,0 +1,14 @@
+.buttons {
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    font-size: 150%;
+    background-color: darkseagreen;
+}
+
+.tasks_header {
+    margin: auto;
+    text-align: center;
+}
