@@ -12,14 +12,35 @@
             <span class="close">&times;</span>
             <form id="new_user_popup_form">
                 <div>
-                    <p>Enter the name: </p>
+                    Enter the name:
                     <input type="text" id="name_entry">
+                </div>
+                <div>
+                    Enter the ID:
+                    <input type="number" id="id_entry">
                 </div>
             </form>
         </div>
     </div>
     <div class="modal" id="new_event_popup">
-
+        <div class="modal_content" id="new_user_popup_content">
+            <span class="close">&times;</span>
+            <div>
+                Title:
+                <input type="text" id="title_entry">
+            </div>
+            <div>
+                Description:
+                <input type="text" id="description_entry">
+            </div>
+            <div>
+                Start Date:
+                <input type="datetime" id="start_date_entry">
+            </div>
+            <div>
+                Assigned To:
+                <input type="text" id="assigned_to_id"> </div>
+        </div>
     </div>
     <div class="buttons">
         <button class="button" id="new_user">Add a user</button>
